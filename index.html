@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sab Sahi Hai</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Chilanka&family=Dancing+Script:wght@600;700&family=Sacramento&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+<style type="text/css">
+	
+	
+.upper2{
+		height:770px;
+		background-color:black;
+		max-width: 100%;
+        position: relative;
+        background-position: cover;
+        padding-top:175px;
+        padding-left:80px;
+	}
+
+/*.parallax2 {
+  background-image:url("https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  height: 750px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+.parallax2 {
+  background-image:url("https://cdn.wealthygorilla.com/wp-content/uploads/2019/09/The-Best-Happy-Birthday-Quotes.jpg");
+  height: 750px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hbd{
+  font-family: 'Amatic SC', cursive;
+  padding-top:70px;
+  font-size:70px;
+  text-align: center;
+  color:white;
+}
+
+* {
+  box-sizing: border-box; }
+
+
+.wrapper {
+  display: flex;
+  width: 90%;
+  justify-content: space-around; }
+
+.card {
+  width: 280px;
+  height: 360px;
+  border-radius: 15px;
+  padding: 1.5rem;
+  background: white;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.4s ease-out;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5); }
+  .card:hover {
+    transform: translateY(20px); }
+    .card:hover:before {
+      opacity: 1; }
+    .card:hover .info {
+      opacity: 1;
+      transform: translateY(0px); }
+  .card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0; }
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px; }
+  .card .info {
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s; }
+    .card .info h1 {
+      margin: 0px; 
+    font-family: 'Amatic SC', cursive;}
+    .card .info p {
+      letter-spacing: 1px;
+      font-size: 15px;
+      margin-top: 8px; }
+    .card .info button {
+      padding: 0.6rem;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      background: white;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.4s ease; }
+      .card .info button:hover {
+        background: dodgerblue;
+        color: white; }
+
+
+</style>
+
+</head>
+<body>
+
+
+<!-- number1 -->
+<div class="parallax2"></div>
+
+<div class="upper2"> 
+   <div class="wrapper">
+  <div class="card"><img src="images/35.jpg"/>
+    <div class="info">
+      <h1>Happy</h1>
+      <button onclick="return ValidatePassword1();"><a href="1.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/5.jpg"/>
+    <div class="info">
+      <h1>Birthday</h1>
+      <button onclick="return ValidatePassword2();"><a href="2.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/9.jpg"/>
+    <div class="info">
+      <h1>Chinmay!</h1>
+      <button onclick="return ValidatePassword3();"><a href="3.html">Click me!</a></button>
+    </div>
+  </div>
+
+</div>
+ <h1 class="hbd">HAPPY BIRTHDAY CHINMAY!</h1>
+</div>
+<!-- number2 -->
+<div class="parallax2"></div>
+<div class="upper2"> 
+   
+<div class="wrapper">
+  <div class="card"><img src="images/31.jpg"/>
+    <div class="info">
+      <h1>Happy</h1>
+      <button onclick="return ValidatePassword4();"><a href="4.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/34.jpg"/>
+    <div class="info">
+      <h1>Birthday</h1>
+      <button onclick="return ValidatePassword5();"><a href="5.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/40.jpg"/>
+    <div class="info">
+      <h1>The Mad The Crazy!</h1>
+      <button onclick="return ValidatePassword6();"><a href="6.html">Click me!</a></button>
+    </div>
+  </div>
+
+</div>
+<h1 class="hbd">HAPPY BIRTHDAY THE MAD THE CRAZY!</h1>
+</div>
+
+<!-- number3 -->
+<div class="parallax2"></div>
+<div class="upper2"> 
+   
+<div class="wrapper">
+  <div class="card"><img src="images/1.jpg"/>
+    <div class="info">
+      <h1>Happy</h1>
+      <button onclick="return ValidatePassword7();"><a href="7.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/29.jpg"/>
+    <div class="info">
+      <h1>Birthday</h1>
+      <button onclick="return ValidatePassword8();"><a href="8.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/48.jpg"/>
+    <div class="info">
+      <h1>Yaar!</h1>
+      <button onclick="return ValidatePassword9();"><a href="9.html">Click me!</a></button>
+    </div>
+  </div>
+
+</div>
+<h1 class="hbd">HAPPY BIRTHDAY YAAR!</h1>
+</div>
+
+<!-- number4 -->
+<div class="parallax2"></div>
+<div class="upper2"> 
+   
+<div class="wrapper">
+  <div class="card"><img src="images/47.jpg"/>
+    <div class="info">
+      <h1>Happy</h1>
+      <button onclick="return ValidatePassword10();"><a href="10.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/49.jpg"/>
+    <div class="info">
+      <h1>Birthday</h1>
+      <button onclick="return ValidatePassword11();"><a href="11.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/38.jpg"/>
+    <div class="info">
+      <h1>Jigri Dost!</h1>
+      <button onclick="return ValidatePassword12();"><a href="12.html">Click me!</a></button>
+    </div>
+  </div>
+
+</div>
+<h1 class="hbd">HAPPY BIRTHDAY JIGRI DOST!</h1>
+</div>
+
+<!-- number5 -->
+<div class="parallax2"></div>
+<div class="upper2"> 
+   
+<div class="wrapper">
+  <div class="card"><img src="images/16.jpg"/>
+    <div class="info">
+      <h1>Happy</h1>
+      <button onclick="return ValidatePassword13();"><a href="13.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/18.jpg"/>
+    <div class="info">
+      <h1>Birthday</h1>
+      <button onclick="return ValidatePassword14();"><a href="14.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/19.jpg"/>
+    <div class="info">
+      <h1>Haddi Mera Buddy!</h1>
+      <button onclick="return ValidatePassword15();"><a href="15.html">Click me!</a></button>
+    </div>
+  </div>
+
+</div>
+<h1 class="hbd">HAPPY BIRTHDAY HADDI MERA BUDDY!</h1>
+</div>
+
+<!-- number6 -->
+<div class="parallax2"></div>
+<div class="upper2"> 
+   
+<div class="wrapper">
+  <div class="card"><img src="images/17.jpg"/>
+    <div class="info">
+      <h1>Happy</h1>
+      <button onclick="return ValidatePassword16();"><a href="16.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/24.jpg"/>
+    <div class="info">
+      <h1>Birthday</h1>
+      <button onclick="return ValidatePassword17();"><a href="17.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/36.jpg"/>
+    <div class="info">
+      <h1>Haggu!</h1>
+      <button onclick="return ValidatePassword18();"><a href="18.html">Click me!</a></button>
+    </div>
+  </div>
+
+</div>
+<h1 class="hbd">HAPPY BIRTHDAY HAGGU!!</h1>
+</div>
+
+<!-- number7 -->
+<div class="parallax2"></div>
+<div class="upper2"> 
+   
+<div class="wrapper">
+  <div class="card"><img src="images/25.jpg"/>
+    <div class="info">
+      <h1>Happy</h1>
+      <button onclick="return ValidatePassword19();"><a href="19.html">Click me!</a></button>
+    </div>
+  </div>
+  <div class="card"><img src="images/sab sahi hai.jpg"/>
+    <div class="info">
+      <h1>Birthday!</h1>
+      <button onclick="return ValidatePassword20();"><a href="20.html">Click me!</a></button>
+    </div>
+  </div>
+ 
+</div>
+<h1 class="hbd">HAPPY BIRTHDAY!  SAB SAHI HAI!</h1>
+
+
+</div>
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+// Password0
+  function ValidatePassword0() {
+
+  var password = prompt("Ek word bolde sabse pele", "");
+
+  if (password == "Thankyou") {
+    return true;
+  }
+  return ValidatePassword0();
+}
+// Password1
+function ValidatePassword1() {
+
+  var password = prompt("The whole insti looks amazing from here!", "");
+
+  if (password == "SameerHill") {
+    return true;
+  }
+  return ValidatePassword1();
+}
+// Password2
+function ValidatePassword2() {
+
+  var password = prompt("Ye jagah apan ke liye ek study + hangout place ban chuki thi. Our first planned meet up was here!", "");
+
+  if (password == "Library") {
+    return true;
+  }
+  return ValidatePassword2();
+}
+
+// P3
+function ValidatePassword3() {
+
+  var password = prompt("Half of the memories here. Kuch bhi rehta tha toh chal na idhar milte?", "");
+
+  if (password == "CommonRoom") {
+    return true;
+  }
+  return ValidatePassword3();
+}
+
+// P4
+function ValidatePassword4() {
+
+  var password = prompt("Your birthday treat!", "");
+
+  if (password == "BnB") {
+    return true;
+  }
+  return ValidatePassword4();
+}
+
+// P5
+function ValidatePassword5() {
+
+  var password = prompt("Mandir jaisi thi apne liye ye jagah! Almost every Tuesday visits!", "");
+
+  if (password == "Hospital") {
+    return true;
+  }
+  return ValidatePassword5();
+}
+
+// P6
+function ValidatePassword6() {
+
+  var password = prompt("Nightout!", "");
+
+  if (password == "CeseKiChhat") {
+    return true;
+  }
+  return ValidatePassword6();
+}
+
+// P7
+function ValidatePassword7() {
+
+  var password = prompt("Yaha ki maggi reh gayi yaar!!!!!!!", "");
+
+  if (password == "NashtaAdda") {
+    return true;
+  }
+  return ValidatePassword7();
+}
+
+// p8
+function ValidatePassword8() {
+
+  var password = prompt("Uss din yaha jane ke liye teri fatri thi meri nahi! xD", "");
+
+  if (password == "BoatHouse") {
+    return true;
+  }
+  return ValidatePassword8();
+}
+
+// p9
+function ValidatePassword9() {
+
+  var password = prompt("I wish this day at this place would never have ended! Bata jagah ka naam?", "");
+
+  if (password == "15FloorKiChhat") {
+    return true;
+  }
+  return ValidatePassword9();
+}
+
+// p10
+function ValidatePassword10() {
+
+  var password = prompt("Your crush!", "");
+
+  if (password == "Aryaman") {
+    return true;
+  }
+  return ValidatePassword10();
+}
+
+// p11
+function ValidatePassword11() {
+
+  var password = prompt("Insti jaate hi sabse pele yaha chalenge!", "");
+
+  if (password == "1314KiChhat") {
+    return true;
+  }
+  return ValidatePassword11();
+}
+
+
+function ValidatePassword12() {
+
+  var password = prompt("Chal ye khane chalenge (In the mosttt excited tone of yours!!!!!!!)", "");
+
+  if (password == "Samose") {
+    return true;
+  }
+  return ValidatePassword12();
+}
+
+
+function ValidatePassword13() {
+
+  var password = prompt("All nighter at this place! (Though tune hi ditch kiya tha ye pele :p)", "");
+
+  if (password == "Marines") {
+    return true;
+  }
+  return ValidatePassword13();
+}
+
+
+function ValidatePassword14() {
+
+  var password = prompt("One word that will always be equal to you!", "");
+
+  if (password == "Insti") {
+    return true;
+  }
+  return ValidatePassword14();
+}
+
+
+function ValidatePassword15() {
+
+  var password = prompt("Teri date! Huh!", "");
+
+  if (password == "Payal") {
+    return true;
+  }
+  return ValidatePassword15();
+}
+
+
+function ValidatePassword16() {
+
+  var password = prompt("Our favourite number!", "");
+
+  if (password == "69") {
+    return true;
+  }
+  return ValidatePassword16();
+}
+
+
+function ValidatePassword17() {
+
+  var password = prompt("Best comedian! Thoda zyada dimaag lagana padega!", "");
+
+  if (password == "PrernaTheGreat") {
+    return true;
+  }
+  return ValidatePassword17();
+}
+
+
+function ValidatePassword18() {
+
+  var password = prompt("Mere noodles nahi pahuche abhi tak...kaha reh gaya ye...?", "");
+
+  if (password == "Ghanshyam") {
+    return true;
+  }
+  return ValidatePassword18();
+}
+
+
+function ValidatePassword19() {
+
+  var password = prompt("Your all time favourite acitivity to do!", "");
+
+  if (password == "Hagna") {
+    return true;
+  }
+  return ValidatePassword19();
+}
+
+
+function ValidatePassword20() {
+
+  var password = prompt("Hamesha badalne ki baat karti thi mai isse...yaad kar?", "");
+
+  if (password == "Sangat") {
+    return true;
+  }
+  return ValidatePassword20();
+}
+
+
+</script>
+
+</body>
+</html>
